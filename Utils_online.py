@@ -1,8 +1,5 @@
-"""
-Coder: In, Bin, Jin, Hye, jip
-Date: 2019-12-15
-Note: Utils for Deep Belief Network Learning
-"""
+# 데이터 표준화를 위한 파일.
+
 
 import numpy as np
 import pymysql
