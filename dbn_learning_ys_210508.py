@@ -46,7 +46,7 @@ tf.config.experimental.set_memory_growth(gpus[gpu], True)
 #   units 노드의 갯수, 활성화함수, 초기화 값 설정
 # 4. vars (값 설정 하는건가?)
 #   input ,key, output 변수를 딕셔너리 지정
-#   필드, 코드 지정. 각각 해놓은거 보면 다 쓰임새가 있다는건데 아직 모르겠음
+#   
 # =============================================================================
 
 param = utils.get_config() #db_io_utils 의 get_config 함수 사용해서 config.ini 읽어오기(conrig 파일을 사이트별로 맞게 수정 하면 됨)
